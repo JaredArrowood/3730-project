@@ -1,24 +1,29 @@
-# Stocks-Project
+# 3730-Project
 
 ## Prerequisites
 
 1. create the virtual encvironment
-   python3 -m venv venv
+
+   > python3 -m venv venv
 
 2. activate the venv
-   .\venv\Scripts\activate.ps1 (for powershell)
 
-   .\venv\Scripts\activate.bat (for cmdline)
+   > .\venv\Scripts\activate.ps1 (for powershell)
 
-   can also just try running activate if neither work
+   > .\venv\Scripts\activate.bat (for cmdline)
 
-(if your system says you can run scripts, run:
-Get-ExecutionPolicy -Scope CurrentUser
-if it is restricted or undefined, run:
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser)
+   > .\venv\Scripts\activate (if neither work)
+
+   (if your system says you can't run scripts, run:
+
+   > Get-ExecutionPolicy -Scope CurrentUser
+
+   if it is restricted or undefined, run:
+
+   > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser)
 
 3. install requirements
-   pip install -r requirements.txt
+   > pip install -r requirements.txt
 
 ## Goals
 
