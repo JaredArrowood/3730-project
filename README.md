@@ -2,28 +2,49 @@
 
 ## Prerequisites
 
-1. create the virtual encvironment
+1. Create the Python virtual environment
 
-   > python3 -m venv venv
+   ```cmd
+    python -m venv venv
+   ```
 
-2. activate the venv
+2. Activate the venv
 
-   > .\venv\Scripts\activate.ps1 (for powershell)
+   - Windows PowerShell
 
-   > .\venv\Scripts\activate.bat (for cmdline)
+   ```cmd
+   .\venv\Scripts\activate.ps1
+   ```
 
-   > .\venv\Scripts\activate (if neither work)
+   - Command Prompt
 
-   (if your system says you can't run scripts, run:
+   ```cmd
+   .\venv\Scripts\activate.bat
+   ```
 
-   > Get-ExecutionPolicy -Scope CurrentUser
+   - If neither work
 
-   if it is restricted or undefined, run:
+   ```cmd
+   .\venv\Scripts\activate (if neither work)
+   ```
 
-   > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser)
+   - If your system says you can't run scripts, run the flollowing command in PowerShell as an administrator:
 
-3. install requirements
-   > pip install -r requirements.txt
+   ```cmd
+   Get-ExecutionPolicy -Scope CurrentUser
+   ```
+
+   - If it is restricted or undefined, run:
+
+   ```cmd
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+
+3. Install requirements
+
+   ```cmd
+   pip install -r requirements.txt
+   ```
 
 ## Goals
 
