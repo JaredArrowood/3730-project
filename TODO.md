@@ -11,7 +11,7 @@
 - [x] **Feature Engineering:**
   - [x] Use past price windows (e.g., last 5 days) and technical indicators (SMA, RSI, etc.).
   - [x] Normalize or standardize features.
-- [ ] store data in a CSV file so we don't have to download it every time
+- [x] store data in a CSV file so we don't have to download it every time
 - [ ] **Split Data:** Time-based split (e.g., 80% train, 20% test).
 
 ## 3. Implement KNN
