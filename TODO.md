@@ -2,7 +2,7 @@
 
 ## 1. Define Objective
 
-- [ ] Decide between regression (predict price) or classification (predict up/down).
+- [x] Classification problem (predict up/down).
 
 ## 2. Data Preparation
 
@@ -12,9 +12,21 @@
   - [x] Use past price windows (e.g., last 5 days) and technical indicators (SMA, RSI, etc.).
   - [x] Normalize or standardize features.
 - [x] store data in a CSV file so we don't have to download it every time
-- [ ] **Split Data:** Time-based split (e.g., 80% train, 20% test).
+- [x] **Split Data:** Time-based split (e.g., 80% train, 20% test).
 
-## 3. Implement KNN
+## 3. Data Visualization (before normalization)
+
+- [ ] **Plot:** Stock price over time.
+- [ ] Histograms
+  - [ ] Close
+  - [ ] Volume
+- [ ] Boxplot of features to check for outliers.
+
+## 4. Data Visualization (after normalization)
+
+- [ ] **Correlation Matrix:** Heatmap of feature correlations.
+
+## 5. Implement KNN
 
 - [ ] Choose \(k\) (start with \(\sqrt{n}\), tune later).
 - [ ] Select distance metric (e.g., Euclidean, Manhattan).
@@ -22,15 +34,16 @@
   - [ ] **Regression:** Average neighbors’ values.
   - [ ] **Classification:** Majority vote of neighbors’ labels.
 
-## 4. Evaluate Model
+## 6. Evaluate Model
 
 - [ ] **Metrics:**
   - [ ] Regression: MAE, MSE, \(R^2\).
-  - [ ] Classification: Accuracy, F1-score, confusion matrix.
+  - [ ] Classification: Accuracy, F1-score, confusion matrix. Using test data.
 - [ ] Visualize predictions vs. actual values.
 
-## 5. Optimize
+## 7. Optimize
 
 - [ ] Tune \(k\).
-- [ ] Test weighted KNN.
-- [ ] Refine features (e.g., window size, indicators).
+- [ ] Check the ratio of Increase/Decrease in the stock price.
+  - [ ] If the ratio is not balanced, use weighted KNN.
+- [ ] visualize predictions vs. actual values after optimization.
