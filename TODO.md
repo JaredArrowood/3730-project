@@ -16,7 +16,7 @@
 
 ## 3. Data Visualization (before normalization)
 
-- [ ] **Plot:** Stock price over time.
+- [x] **Plot:** Stock price over time.
 - [ ] Histograms
   - [ ] Close
   - [ ] Volume
