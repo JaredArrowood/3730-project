@@ -28,11 +28,10 @@
 
 ## 5. Implement KNN
 
-- [ ] Choose \(k\) (start with \(\sqrt{n}\), tune later).
-- [ ] Select distance metric (e.g., Euclidean, Manhattan).
-- [ ] Predict:
-  - [ ] **Regression:** Average neighbors’ values.
-  - [ ] **Classification:** Majority vote of neighbors’ labels.
+- [x] Choose \(k\) (start with \(\sqrt{n}\), tune later).
+- [x] Select distance metric (e.g., Euclidean, Manhattan).
+- [x] Predict:
+  - [x] **Classification:** Majority vote of neighbors’ labels.
 
 ## 6. Evaluate Model
 
