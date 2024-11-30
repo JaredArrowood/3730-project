@@ -17,14 +17,14 @@
 ## 3. Data Visualization (before normalization)
 
 - [x] **Plot:** Stock price over time.
-- [ ] Histograms
-  - [ ] Close
-  - [ ] Volume
-- [ ] Boxplot of features to check for outliers.
+- [x] Histograms
+  - [x] Close
+  - [x] Volume
+- [x] Boxplot of features to check for outliers.
 
 ## 4. Data Visualization (after normalization)
 
-- [ ] **Correlation Matrix:** Heatmap of feature correlations.
+- [x] **Correlation Matrix/ Trellis plot:** trellis plot of features and their correlation to the future change.
 
 ## 5. Implement KNN
 
